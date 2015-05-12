@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Untitled 1</title>
+</head>
+
+<body>
+
+<form action="./wk3stst2form.php" method="post" name="wk3stst2form">
+	check which school you attend:<br />
+	<input type="radio" name="school" value="bcit">bcit<br />
+	<input type="radio" name="school" value="ubc">ubc<br />
+	<input type="radio" name="school" value="sfu">sfu<br />
+	check here if male: <input type="checkbox" name="male" value="male"><br />
+	check here if human: <input type="checkbox" name="human" value="human"><br />
+	birthplace: <select name="birthplace[]" multiple="multiple">
+		<option value="bc">bc</option>
+		<option value="alberta">alberta</option>
+		<option value="saskatchewan">saskatchewan</option>
+	</select>
+	<input type="submit" name="submit_info">
+</form>
+</body>
+
+</html>
