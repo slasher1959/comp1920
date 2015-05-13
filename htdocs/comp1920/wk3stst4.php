@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<title>Untitled 1</title>
-</head>
-
-<body>
 <?php
 $countries[7] = "Canada";
 $countries[17] = "USA";
@@ -43,8 +34,18 @@ $countriesmore = ["Canada", "Fiji", "England"];
 for ($i = 0; $i < count($countriesmore); $i++) {
 	echo "$countriesmore[$i]<br />";
 }
+
+echo "Before deleting<br />";
+
+foreach($countriesmore as $ctemp) {
+	echo "$ctemp<br />";
+}
+
+echo "After deleting<br />";
+unset($countriesmore[1]);
+
+foreach($countriesmore as $ctemp) {
+	echo "$ctemp<br />";
+}
+
 ?>
-
-</body>
-
-</html>
