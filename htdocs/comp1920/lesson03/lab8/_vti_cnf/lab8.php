@@ -1,13 +1,13 @@
 vti_encoding:SR|utf8-nl
 vti_author:SR|LENOVO-PC-JOHNE\\John
 vti_modifiedby:SR|LENOVO-PC-JOHNE\\John
-vti_timelastmodified:TR|12 May 2015 03:07:39 -0000
-vti_timecreated:TR|12 May 2015 02:57:56 -0000
+vti_timelastmodified:TR|15 May 2015 02:29:31 -0000
+vti_timecreated:TR|15 May 2015 00:14:32 -0000
 vti_extenderversion:SR|12.0.0.0
-vti_backlinkinfo:VX|wk3stst3.html
-vti_nexttolasttimemodified:TW|12 May 2015 03:04:13 -0000
-vti_cacheddtm:TX|12 May 2015 03:07:39 -0000
-vti_filesize:IR|491
+vti_backlinkinfo:VX|lesson03/lab8/index.html
+vti_nexttolasttimemodified:TW|15 May 2015 01:30:27 -0000
+vti_cacheddtm:TX|15 May 2015 02:29:31 -0000
+vti_filesize:IR|1130
 vti_cachedneedsrewrite:BR|false
 vti_cachedhasbots:BR|false
 vti_cachedhastheme:BR|false

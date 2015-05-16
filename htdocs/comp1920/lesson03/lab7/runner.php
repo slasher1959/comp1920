@@ -1,4 +1,14 @@
 <?php
+/**
+ * runner.php
+ *
+ * Comp1920 Lab7 driver file
+ *
+ * Author:  John Elash
+ * Date:   May 14, 2015, 2015
+ *
+ */
+
 require_once("array.php");
 
 $myMagicalBeautifulItems = array(
@@ -17,5 +27,5 @@ $myMagicalBeautifulItems = array(
 echo "<br /><br />";  //empty lines printed for format reasons only
 
 echo createHtmlSelect($myMagicalBeautifulItems);
- 
+
 ?>
