@@ -4,3 +4,7 @@ This is a line I'm writing to the file
 This is a line I'm writing to the file
 This is a line I'm writing to the file
 This is a line I'm writing to the file after the initial...I've expanded it
+Geneva
+Amsterdam
+Buffalo
+New York
