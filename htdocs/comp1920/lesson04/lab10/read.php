@@ -2,12 +2,13 @@
 /**
  * read.php
  *
- * This script file is for lab10 in course COMP1920.
+ * This script file reads POSTS from the POSTS file as per COMP1920 Lab10 requiremnts
  *
- * Author:  John Elash
+ * @author:  John Elash
  * Date:   May 19, 2015
- *
+ * @version:  V1.0
  */
+
 //    echo "in read.php<br />";
     $messageBoardFile = "messageboard.text";
     if (file_exists($messageBoardFile) !== true) {
@@ -31,6 +32,7 @@
     }
 //    echo "<pre>"; 
 //    var_dump($myFileArray); 
-//    echo "</pre>";  
-
+//    echo "</pre>"; 
+    echo "<br />";
 ?>
+<a href="./read_post.html" target="_self">Back to Read-Post Page</a>
