@@ -1,34 +1,23 @@
 <?php
 /**
- * XXXFILENAME.php
+ * read_post.php
  *
- * XXXDescription
+ * For COMP1920 Lab10
+ * This script reads the form input and then will direct the user to a read or post function
+ * based on that input
  *
  * @author:  John Elash
- * Date:   MMM DD, 2015
+ * Date:   May 20, 2015
  * @version:  V1.0
  */
-//echo "<pre>"; 
-//var_dump($_POST); 
-//echo "</pre>";
+
 if(isset($_POST['read_or_post'])) {
     if  ($_POST['read_or_post'] == "read") {
-        header("Location:./read.php");
+        header("Location:./read.php");  //redirect browser/user agent to open another php script
     } else {
-        header("Location:./get_text.php");
+        header("Location:./get_text.php"); //redirect browser/user agent to open another php script
     }
 }   else {
-    echo "not set<br />";
+    echo "You have not made a selection.  Please try again<br />";
 }
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title></title>
-    </head>
-    <body>
-        
-    </body>
-</html>

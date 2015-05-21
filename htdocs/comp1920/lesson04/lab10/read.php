@@ -9,30 +9,25 @@
  * @version:  V1.0
  */
 
-//    echo "in read.php<br />";
-    $messageBoardFile = "messageboard.text";
-    if (file_exists($messageBoardFile) !== true) {
-        echo "doesn't exist";
+    $messageBoardFile = "messageboard.txt";
+    if (file_exists($messageBoardFile) !== true) {  //test if file exists and create it if it does not
         $myFile = fopen($messageBoardFile, "a");
         fclose($myFile);
     } 
 
     $myFileArray = file($messageBoardFile);
     if (count($myFileArray) == 0) {
-        echo "File: $messageBoardFile has no posts to display<br />";
-    } else {
+        echo "File: $messageBoardFile has no posts to display<br />";   // if the messageboard is empty display 
+    } else {                                                            // this to the user to avoid confusion
         foreach ($myFileArray as $myFileNdx=>$myFileArrayLine) {
             echo nl2br($myFileArrayLine);
-//            $tempString = str_replace('and', 'BUT', $myFileArrayLine);
-//            echo nl2br($tempString);
-//            echo nl2br("and another\n and still another\nyet another") . "<br />";
-//            var_dump($myFileArrayLine);
-//            echo "<br />";
         }
     }
-//    echo "<pre>"; 
-//    var_dump($myFileArray); 
-//    echo "</pre>"; 
-    echo "<br />";
+
+    echo "<br /><br />";    //add two breaks to offset the link back to the main page
 ?>
+
+<!--
+Display a link to the main page, not via php, just use regular HTML
+-->
 <a href="./read_post.html" target="_self">Back to Read-Post Page</a>
